@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>register-servlet</servlet-name>
+		<servlet-class>com.anil.AddToEmails</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>register-servlet</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+</web-app>
