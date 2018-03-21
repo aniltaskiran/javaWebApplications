@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="softwareDesignApplications:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="com.taskiran.war">
-      <element id="artifact" artifact-name="softwareDesignApplications:war exploded" />
-    </root>
-  </artifact>
-</component>
