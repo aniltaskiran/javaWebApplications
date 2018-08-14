@@ -11,8 +11,19 @@
       <param-value>/Users/kev/Desktop/userList.txt</param-value>
     </init-param>
   </servlet>
+  <servlet>
+    <servlet-name>AddProduct</servlet-name>
+    <servlet-class>business.AddProduct</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddProduct</servlet-name>
+    <url-pattern>/addProd</url-pattern>
+  </servlet-mapping>
   <servlet-mapping>
     <servlet-name>register-servlet</servlet-name>
     <url-pattern>/register</url-pattern>
   </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file> /hello.jsp </welcome-file>
+  </welcome-file-list>
 </web-app>

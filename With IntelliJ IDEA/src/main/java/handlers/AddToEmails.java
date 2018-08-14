@@ -33,8 +33,9 @@ public class AddToEmails extends HttpServlet {
         } else {
             UserIO usrWrite = new UserIO();
             ServletConfig scg = getServletConfig();
+            ServletContext sc = getServletContext();
 
-            // String path = sc.getRealPath("/WEB-INF/userList.txt");
+//             String path = sc.getRealPath("/WEB-INF/userList.txt");
             String path = scg.getInitParameter("emailFileName");
             usrWrite.write(user, path);
             url = "/reply.jsp";

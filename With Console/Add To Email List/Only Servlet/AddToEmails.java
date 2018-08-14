@@ -35,4 +35,5 @@ public class AddToEmails extends HttpServlet {
           out.println("</body>");
           out.println("</html>");
       }
+    "{\"success\": true}"
 }
